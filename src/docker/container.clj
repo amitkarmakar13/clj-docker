@@ -74,7 +74,8 @@
 ;;TODO:add validators ~ prismatic's schema?
 (defn create-config
   [user-configs]
-    (merge default-container-config user-configs))
+    user-configs)
+;    (merge default-container-config user-configs))
 
 (defn create
   "creates new container
